@@ -1,0 +1,94 @@
+* {
+    font-family: "roboto", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    background: white;
+    width: 1080px;
+    height: 1350px;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username h2 {
+    margin: 0;
+  }
+  
+  .username h3 {
+    margin: 0;
+  }
+  
+  
+.header i {
+    font-size: 50px;
+}
+
+.menu-options{
+    right: 10px; 
+    top: 10px; 
+    font-size: 1.5em;
+    margin-left: auto;
+    position: absolute;
+    padding: 15px;
+}
+
+.post-body-img{
+    width: 1000px; 
+    height: 1100px; 
+    display: flex;
+    justify-content: center; 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%; 
+    gap: 20px;
+}
+
+.icono-guardar{
+    margin-left: auto;
+    padding: 10px;
+}
+
+.post-body-text{
+    max-width: 100%; 
+    margin: 0;
+    padding: 10px; 
+    text-align: left; 
+    border: 10px;
+}
+
+
+
